@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // Insérer l'utilisateur dans la base de données
-    $stmt = $pdo->prepare("INSERT INTO users (username, email, password, role) VALUES (:username, :email, :password, 'role')");
+    $stmt = $pdo->prepare("INSERT INTO users (username, email, password, role) VALUES (:username, :email, :password, 'user')");
     $stmt->execute(['username' => $username, 'email' => $email, 'password' => $hashedPassword]);
 
     echo "<script>alert('Inscription réussie !'); window.location.href='login.php';</script>";

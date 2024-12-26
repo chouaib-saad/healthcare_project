@@ -60,15 +60,8 @@ $users = $userModel->getAllUsers();
                 <li class="link"><a href="../../../public/dashboard.php">Accueil</a></li>
                 <li class="link"><a href="gestion_utilisateurs.php">Gestion Utilisateurs</a></li>
                 <li class="link"><a href="gestion_items.php">Gestion Items</a></li>
-                <li class="link"><a href="../app/views/clinic/converter.php">Gestion Panier</a></li>
             </ul>
 
-            <div style="padding-right:20px;padding-left:20px;">
-            <button class="btn" onclick="window.location.href = 'carte.php';">
-                <i class="ri-shopping-cart-line"></i> Voir Panier
-            </button>
-            </div>
-            
             <button class="btn" onclick="window.location.href = '../users/logout.php';">Déconnexion</button>
         </nav>
         <div class="section__container header__container" id="home">

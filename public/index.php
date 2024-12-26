@@ -41,6 +41,13 @@ if (session_status() === PHP_SESSION_NONE) {
             <li class="link"><a href="../app/views/clinic/services.php">Services</a></li>
             <li class="link"><a href="../app/views/clinic/localisation.php">Localisation</a></li>
         </ul>
+
+        <div style="padding-right:20px;padding-left:20px;">
+            <button class="btn" onclick="window.location.href = '../app/views/clinic/carte.php';">
+                <i class="ri-shopping-cart-line"></i> Voir Panier
+            </button>
+            </div>
+            
         <button class="btn" onclick="logout()">Déconnexion</button>
     </nav>
         <div class="section__container header__container" id="home">

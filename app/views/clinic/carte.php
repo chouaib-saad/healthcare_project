@@ -61,7 +61,7 @@ if (isset($_POST['clear_cart'])) {
             <div class="logo">Clinique<span>Info</span></div>
             <ul class="nav-links">
                 <li><a href="services.php">Services</a></li>
-                <li><a href="panier.php">Panier</a></li>
+                <li><a href="carte.php">Panier</a></li>
             </ul>
         </nav>
     </header>
@@ -120,9 +120,6 @@ if (isset($_POST['clear_cart'])) {
                 </div>
             </div>
         </form>
-        <a href="services.php">
-            <button class="back-btn">Retour aux services</button>
-        </a>
     </main>
 
     <footer>

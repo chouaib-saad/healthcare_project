@@ -9,7 +9,7 @@ class Database
     private $host = 'localhost';
     private $dbname = 'cliniqueinfo';
     private $user = 'root';
-    private $password = '0000';
+    private $password = '';
 
     // Constructeur privé pour empêcher l'instanciation directe
     private function __construct()

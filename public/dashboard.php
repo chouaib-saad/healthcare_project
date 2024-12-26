@@ -36,7 +36,6 @@ if (!isset($_SESSION['user_id'])) {
                 <li class="link"><a href="dashboard.php">Accueil</a></li>
                 <li class="link"><a href="../app/views/clinic/gestion_utilisateurs.php">Gestion Utilisateurs</a></li>
                 <li class="link"><a href="../app/views/clinic/gestion_items.php">Gestion Services</a></li>
-                <li class="link"><a href="../app/views/clinic/converter.php">Gestion Panier</a></li>
             </ul>
             <button class="btn" onclick="logout()">Déconnexion</button>
         </nav>
