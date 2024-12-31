@@ -67,7 +67,7 @@ Le projet est organisé selon l'architecture MVC, avec une séparation claire en
 
 ### Arborescence des Fichiers
 
-**
+<pre>
 /HEALTHCARE_PROJECT/
 ├── /app/
 │   ├── /controllers/
@@ -115,7 +115,7 @@ Le projet est organisé selon l'architecture MVC, avec une séparation claire en
 │   └── index.php
 ├── .gitattributes
 └── README.md
-**
+</pre>
 
 
 ### Détails Techniques des Fichiers
